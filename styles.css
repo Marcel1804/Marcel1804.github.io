@@ -1,0 +1,48 @@
+h1{
+    color: blue;
+     border-bottom: 1px solid black;
+}
+.absolute{
+    position: absolute;
+}
+
+#pic{
+  top: 8px;
+  right: 2px;
+  border: 4px solid white;
+  background-color: blue;
+  border-radius: 6px;
+  transform: rotate(-5deg);
+  margin-right: 120px;
+}
+/*#pic:hover{
+  visibility: hidden;
+}*/
+body{
+  background-image: url("./pic3.jpg");
+  
+
+}
+.relative{
+   position: relative;
+}
+
+.right{
+  float: right;
+    padding-right: 58%;
+}
+.left{
+  float: left;
+  padding-left: 5%;
+}
+.blackline{
+  border-right: 2px solid black;
+  padding-right: 10px;
+  padding-bottom: 50%;
+}
+.task{
+  padding-bottom:10%;
+}
+.nopad{
+   padding: 0px;
+}
